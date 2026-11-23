@@ -6,9 +6,9 @@ The interface has a six-app dock controlled by a TV remote, an expandable list o
 
 ## TMDB use
 
-The planned film carousel requests the TMDB top-rated movie list and wide backdrop images. It shows a film's title, year, and TMDB rating. Selecting a film opens its TMDB information page; playback is not provided by this app. The API credential is entered by the owner in the app's settings and is not included in the APK or this page.
+The film carousel requests TMDB's current popular movie list and wide backdrop images. It refreshes the list periodically while the app is active, and shows a film's title, year, and TMDB rating. Selecting a film opens its TMDB information page; playback is not provided by this app. The API credential is entered by the owner in the app's settings and is not included in the APK or this page.
 
-The project is an Android TV prototype currently being tested locally. The TMDB feature is prepared but has not yet been tested on the television with an API credential. There is no public download at this time.
+The project is an Android TV prototype currently being tested locally. TMDB access from the television depends on its network configuration. There is no public download at this time.
 
 Data and images: [The Movie Database (TMDB)](https://www.themoviedb.org/).
 
